@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Pool Installation Cost Estimator</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* Header/Logo Title */
+.header {
+  padding: 15px;
+  text-align: center;
+  background: #33FFF0;
+  color: black;
+  font-size: 30px;
+}
+
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  text-align: left;
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 40px;
+}
+
+
+nav {
+  text-align: left;
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+nav {
+  text-align: left;
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+nav {
+  text-align: left;
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+
+
+/* Page Content */
+.content {padding:50px;}
+</style>
+</head>
+
+
+<div class="header">
+  <h1>Pool Installation Cost Estimation Page</h1>
+</div>
+
+<section>
+  <nav>
+<form>
+  <label for="question">How long do you want your pool to be (in feet)?</label>
+  <input type="text" id="question" name="question"><br><br>
+  <input type="submit" value="Submit">
+</form>
+  </nav>  
+</section>
+
+<section>
+  <nav>
+<form>
+  <label for="question">How wide do you want your pool to be (in feet)?</label>
+  <input type="text" id="question" name="question"><br><br>
+  <input type="submit" value="Submit">
+</form>
+  </nav>  
+</section>
+
+<section>
+  <nav>
+<form>
+  <label for="question">How deep do you want your pool to be (in feet)?</label>
+  <input type="text" id="question" name="question"><br><br>
+  <input type="submit" value="Submit">
+</form>
+  </nav>  
+</section>
+
+<section>
+  <nav>
+<form>
+  <label for="question">What material do you want your pool to be surfaced with?</label>
+  <input type="text" id="question" name="question"><br><br>
+  <input type="submit" value="Submit">
+</form>
+  </nav>  
+</section>
+
+<section>
+  <nav>
+<form>
+  <label for="question">Do you want an outdoor pool or an indoor pool?</label>
+  <input type="text" id="question" name="question"><br><br>
+  <input type="submit" value="Submit">
+</form>
+  </nav>  
+</section>
+
+</body>
+</html>
