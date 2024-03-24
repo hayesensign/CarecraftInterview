@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Metal Quoting Q&A</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* Header/Logo Title */
+.header {
+  padding: 20px;
+  text-align: center;
+  background: #1a73bc;
+  color: black;
+  font-size: 30px;
+}
+
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  text-align: left;
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 40px;
+}
+
+
+nav {
+  text-align: left;
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+nav {
+  text-align: left;
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+nav {
+  text-align: left;
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+
+
+/* Page Content */
+.content {padding:50px;}
+</style>
+</head>
+
+
+<div class="header">
+  <h1>Metal Manufacturing and Fabrication Quoting Q&A's</h1>
+</div>
+
+
+<section>
+  <nav>
+    <h1>Questions</h1>
+<form>
+  <label for="question">Enter a question you have about metal fabrication and manufacturing costs:</label>
+  <input type="text" id="question" name="question"><br><br>
+  <input type="submit" value="Submit">
+</form>
+  </nav>
+
+  <nav>
+    <h1>Answers</h1>
+<form>
+  <label for="question">Answer one of the questions listed above,
+                        with the question number (such as "1. Nesting is the useof different patterns in sheet metal to reduce waste"):
+  </label>
+  <input type="text" id="question" name="question"><br><br>
+  <input type="submit" value="Submit">
+</form>
+  </nav>
+</section>
+
+</body>
+</html>
