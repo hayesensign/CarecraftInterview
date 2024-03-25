@@ -1,0 +1,27 @@
+function createExcelFile()
+{
+  var webdriver = require(‘selenium-webdriver’);
+  var browser_name = new webdriver.Builder();
+  withCapabilities(webdriver.Capabilities.chrome()).build();
+  browser.get(‘file:///C:/Users/hayes/source/repos/PoolInstallation.htm’);
+  string length = document.getElementById("length").text;
+string width = document.getElementById("width").text;
+string depth = document.getElementById("depth").text;
+string material = document.getElementById("material").text;
+string location = document.getElementById("location").text;
+int volume = length * width * height;
+int cost = volume;
+if (material == "marble")
+{
+   cost = volume * 30;
+}
+elseif (material == "granite)
+{
+   cost = volume * 28;
+}
+if (location == "indoor")
+{
+   cost = cost * 1.5;
+}
+print ("Estimated cost is: " + cost.ToString());
+}
